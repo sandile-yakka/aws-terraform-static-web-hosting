@@ -1,8 +1,6 @@
 resource "aws_s3_bucket" "deployment_bucket" {
     bucket = var.deployment_bucket_name
     acl    = "public-read"
-    # policy = file("policy.json")
-
     website {
         index_document = "index.html"
         error_document = "index.html"
