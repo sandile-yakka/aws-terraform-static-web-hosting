@@ -9,3 +9,5 @@ This repo helps you achieve the following:
 
 Notes:
   In order to successfully host a static website with S3 and Route53 remember that your bucket name needs to have the same name as your R53 hosted zone
+
+Once you've successfully executed run.sh go ahead and deploy your index.html or build files to your bucket by using the deploy.sh script

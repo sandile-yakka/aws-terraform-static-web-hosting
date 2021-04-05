@@ -1,0 +1,1 @@
+aws s3 sync <path-to-your-build-files> s3://<bucketName> --acl public-read --region <your-bucket-region>
