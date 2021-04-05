@@ -1,0 +1,1 @@
+# aws-terraform-static-web-hosting
